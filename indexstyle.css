@@ -17,8 +17,7 @@ header {
     background-color: #007bff;
     color: #fff;
     text-align: center;
-    padding: 2rem 0;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
 }
 
 nav ul {
@@ -37,8 +36,6 @@ nav a {
     text-decoration: none;
     color: #fff;
     transition: color 0.3s;
-    font-size: 18px;
-    font-weight: bold;
 }
 
 nav a:hover {
@@ -48,10 +45,9 @@ nav a:hover {
 main {
     max-width: 800px;
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 1rem;
     background-color: #fff;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -68,15 +64,14 @@ footer {
 }
 
 #intro h2 {
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 20px;
     color: #333;
 }
 
 #intro p {
-    font-size: 18px;
+    font-size: 16px;
     color: #666;
 }
 
-/* Add your custom styles below this line */
 
