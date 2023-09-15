@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    background-color: #333;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Additional styling for the intro section */
+#intro {
+    text-align: center;
+    padding: 2rem;
+}
+
+#intro h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#intro p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Add your custom styles below this line */
